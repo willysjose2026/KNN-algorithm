@@ -2,7 +2,7 @@ from KNN import knn, euclidean_distance
 
 def recommend_movies(movie_query, k_recommendations):
     raw_movies_data = []
-    with open('KNN\movies_recommendation_data.csv', 'r') as md:
+    with open('movies_recommendation_data.csv', 'r') as md:
         # Discard the first line (headings)
         next(md)
 
